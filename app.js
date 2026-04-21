@@ -4,10 +4,10 @@ const projects = [
     category: "Proyecto real publicado",
     status: "Produccion",
     description:
-      "Trabajo de frontend sobre una web publicada, con foco en autenticacion, formularios complejos, integracion con backend y base preparada para nuevas funcionalidades.",
-    stack: ["React", "Vite", "JWT", "AuthContext", "Fetch API"],
+      "Trabajo de frontend sobre una web publicada, con foco en autenticacion, formularios complejos, integracion con backend, TypeScript y una base preparada para nuevas funcionalidades.",
+    stack: ["React", "TypeScript", "Vite", "JWT", "AuthContext", "Fetch API"],
     highlights: [
-      "Desarrollo del frontend con React + Vite.",
+      "Desarrollo del frontend con React + TypeScript + Vite.",
       "Implementacion de login, registro y contexto de usuario.",
       "Formulario de subida de rutas con validacion, hasta 5 imagenes y envio autenticado.",
       "Integracion con endpoints protegidos y redireccion automatica si no hay sesion.",
