@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maria Safer | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio de Maria Safer con proyectos de frontend y full-stack."
+    />
+    <link rel="stylesheet" href="/portfolio/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="background-orb orb-one"></div>
+      <div class="background-orb orb-two"></div>
+
+      <header class="site-header">
+        <a class="brand" href="#top">Maria Safer</a>
+
+        <nav class="site-nav">
+          <a href="#projects">Proyectos</a>
+          <a href="#about">Sobre mi</a>
+          <a href="#contact">Contacto</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Frontend / Full-stack portfolio</p>
+            <h1>
+              Construyo productos pequenos con forma de proyecto real.
+            </h1>
+            <p class="hero-text">
+              Estoy enfocada en seguir creciendo como desarrolladora, combinando
+              frontend, backend y experiencia de usuario en proyectos que se
+              puedan ensenar y explicar con criterio.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#projects">Ver proyectos</a>
+              <a
+                class="btn btn-secondary"
+                href="https://www.linkedin.com/in/mariasafer7/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LinkedIn
+              </a>
+            </div>
+          </div>
+
+          <aside class="hero-panel">
+            <div class="hero-card hero-card-large">
+              <p class="hero-card-label">Ahora mismo</p>
+              <h2>2 proyectos listos para portfolio</h2>
+              <p>
+                Un proyecto real publicado y una demo full-stack propia con
+                arquitectura preparada para IA.
+              </p>
+            </div>
+
+            <div class="hero-card-grid">
+              <article class="hero-card">
+                <span class="hero-stat">React + Vite</span>
+                <p>Trabajo sobre producto real en produccion</p>
+              </article>
+              <article class="hero-card">
+                <span class="hero-stat">Node + Express</span>
+                <p>Demo full-stack pensada para entrevistas</p>
+              </article>
+            </div>
+          </aside>
+        </section>
+
+        <section class="section" id="projects">
+          <div class="section-heading">
+            <p class="eyebrow">Proyectos destacados</p>
+            <h2>Lo que ya puedo ensenar</h2>
+            <p>
+              Proyectos seleccionados para mostrar experiencia real, capacidad
+              tecnica y criterio de producto.
+            </p>
+          </div>
+
+          <div class="project-grid" id="project-grid"></div>
+        </section>
+
+        <section class="section split-section" id="about">
+          <div class="section-heading">
+            <p class="eyebrow">Sobre mi</p>
+            <h2>Me interesa construir y entender el flujo completo.</h2>
+          </div>
+
+          <div class="about-grid">
+            <article class="info-card">
+              <p>
+                Estoy enfocada en crecer como desarrolladora full-stack,
+                trabajando con JavaScript, React, Node.js y Express.
+              </p>
+              <p>
+                Me interesan especialmente los proyectos pequenos pero bien
+                planteados: con interfaz, logica, integracion con backend y una
+                experiencia que tenga sentido ensenar a recruiters o en
+                entrevista.
+              </p>
+            </article>
+
+            <article class="info-card">
+              <h3>Lo que quiero seguir reforzando</h3>
+              <ul class="skill-list">
+                <li>Frontend con React y experiencia de usuario</li>
+                <li>APIs y logica backend con Node.js</li>
+                <li>Integracion entre cliente y servidor</li>
+                <li>Presentacion de proyectos para portfolio</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="contact">
+          <div class="contact-card">
+            <div>
+              <p class="eyebrow">Contacto</p>
+              <h2>Si quieres ver mas, aqui estan mis enlaces.</h2>
+              <p>
+                Este portfolio ira creciendo con nuevos proyectos. La estructura
+                ya esta preparada para ir anadiendo mas sin rehacer la web.
+              </p>
+            </div>
+
+            <div class="contact-actions">
+              <a
+                class="btn btn-primary"
+                href="https://github.com/DexpinBe"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
+              <a
+                class="btn btn-secondary"
+                href="https://www.linkedin.com/in/mariasafer7/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LinkedIn
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="/portfolio/app.js"></script>
+  </body>
+</html>
