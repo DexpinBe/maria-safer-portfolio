@@ -3,24 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Maria Safer | Portfolio</title>
+    <title>Maria Safer | Frontend & Full-stack Portfolio</title>
     <meta
       name="description"
-      content="Portfolio de Maria Safer con proyectos de frontend y full-stack."
+      content="Portfolio de Maria Safer con proyectos de frontend y full-stack orientados a producto real."
     />
-    <link rel="stylesheet" href="/portfolio/styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <div class="page-shell">
-      <div class="background-orb orb-one"></div>
-      <div class="background-orb orb-two"></div>
+      <div class="background-shape shape-one"></div>
+      <div class="background-shape shape-two"></div>
 
       <header class="site-header">
         <a class="brand" href="#top">Maria Safer</a>
 
         <nav class="site-nav">
           <a href="#projects">Proyectos</a>
-          <a href="#about">Sobre mi</a>
+          <a href="#about">Perfil</a>
+          <a href="#strengths">Fortalezas</a>
           <a href="#contact">Contacto</a>
         </nav>
       </header>
@@ -28,111 +29,24 @@
       <main id="top">
         <section class="hero">
           <div class="hero-copy">
-            <p class="eyebrow">Frontend / Full-stack portfolio</p>
-            <h1>
-              Construyo productos pequenos con forma de proyecto real.
-            </h1>
+            <p class="eyebrow">Frontend developer with full-stack foundation</p>
+            <h1>Construyo interfaces y flujos con forma de producto real.</h1>
             <p class="hero-text">
-              Estoy enfocada en seguir creciendo como desarrolladora, combinando
-              frontend, backend y experiencia de usuario en proyectos que se
-              puedan ensenar y explicar con criterio.
+              Estoy enfocada en crecer como desarrolladora frontend y full-stack,
+              trabajando en experiencias cuidadas, integracion con backend y
+              proyectos que se puedan explicar con claridad en portfolio,
+              entrevista y entorno profesional.
             </p>
+
+            <div class="hero-note">
+              <span class="status-dot"></span>
+              <span>Proyecto real publicado + demos propias orientadas a portfolio</span>
+            </div>
 
             <div class="hero-actions">
               <a class="btn btn-primary" href="#projects">Ver proyectos</a>
               <a
                 class="btn btn-secondary"
-                href="https://www.linkedin.com/in/mariasafer7/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                LinkedIn
-              </a>
-            </div>
-          </div>
-
-          <aside class="hero-panel">
-            <div class="hero-card hero-card-large">
-              <p class="hero-card-label">Ahora mismo</p>
-              <h2>2 proyectos listos para portfolio</h2>
-              <p>
-                Un proyecto real publicado y una demo full-stack propia con
-                arquitectura preparada para IA.
-              </p>
-            </div>
-
-            <div class="hero-card-grid">
-              <article class="hero-card">
-                <span class="hero-stat">React + Vite</span>
-                <p>Trabajo sobre producto real en produccion</p>
-              </article>
-              <article class="hero-card">
-                <span class="hero-stat">Node + Express</span>
-                <p>Demo full-stack pensada para entrevistas</p>
-              </article>
-            </div>
-          </aside>
-        </section>
-
-        <section class="section" id="projects">
-          <div class="section-heading">
-            <p class="eyebrow">Proyectos destacados</p>
-            <h2>Lo que ya puedo ensenar</h2>
-            <p>
-              Proyectos seleccionados para mostrar experiencia real, capacidad
-              tecnica y criterio de producto.
-            </p>
-          </div>
-
-          <div class="project-grid" id="project-grid"></div>
-        </section>
-
-        <section class="section split-section" id="about">
-          <div class="section-heading">
-            <p class="eyebrow">Sobre mi</p>
-            <h2>Me interesa construir y entender el flujo completo.</h2>
-          </div>
-
-          <div class="about-grid">
-            <article class="info-card">
-              <p>
-                Estoy enfocada en crecer como desarrolladora full-stack,
-                trabajando con JavaScript, React, Node.js y Express.
-              </p>
-              <p>
-                Me interesan especialmente los proyectos pequenos pero bien
-                planteados: con interfaz, logica, integracion con backend y una
-                experiencia que tenga sentido ensenar a recruiters o en
-                entrevista.
-              </p>
-            </article>
-
-            <article class="info-card">
-              <h3>Lo que quiero seguir reforzando</h3>
-              <ul class="skill-list">
-                <li>Frontend con React y experiencia de usuario</li>
-                <li>APIs y logica backend con Node.js</li>
-                <li>Integracion entre cliente y servidor</li>
-                <li>Presentacion de proyectos para portfolio</li>
-              </ul>
-            </article>
-          </div>
-        </section>
-
-        <section class="section" id="contact">
-          <div class="contact-card">
-            <div>
-              <p class="eyebrow">Contacto</p>
-              <h2>Si quieres ver mas, aqui estan mis enlaces.</h2>
-              <p>
-                Este portfolio ira creciendo con nuevos proyectos. La estructura
-                ya esta preparada para ir anadiendo mas sin rehacer la web.
-              </p>
-            </div>
-
-            <div class="contact-actions">
-              <a
-                class="btn btn-primary"
                 href="https://github.com/DexpinBe"
                 target="_blank"
                 rel="noreferrer"
@@ -149,10 +63,160 @@
               </a>
             </div>
           </div>
+
+          <aside class="hero-panel">
+            <article class="signal-card signal-card-large">
+              <p class="signal-label">Posicion actual</p>
+              <h2>Frontend con criterio de producto y base backend.</h2>
+              <p>
+                Me interesa construir proyectos pequenos pero solidos, con una
+                interfaz bien resuelta, logica clara y una historia que tenga
+                valor para recruiters.
+              </p>
+            </article>
+
+            <div class="signal-grid">
+              <article class="signal-card">
+                <span class="signal-value">React + TS</span>
+                <p>Trabajo real en una web publicada en produccion.</p>
+              </article>
+              <article class="signal-card">
+                <span class="signal-value">Node + Express</span>
+                <p>Demo full-stack propia pensada para entrevistas.</p>
+              </article>
+            </div>
+          </aside>
+        </section>
+
+        <section class="section section-metrics">
+          <article class="metric-card">
+            <span class="metric-value">2</span>
+            <span class="metric-label">Proyectos fuertes para portfolio</span>
+          </article>
+          <article class="metric-card">
+            <span class="metric-value">1</span>
+            <span class="metric-label">Proyecto real publicado</span>
+          </article>
+          <article class="metric-card">
+            <span class="metric-value">End-to-end</span>
+            <span class="metric-label">Frontend, API y experiencia de uso</span>
+          </article>
+        </section>
+
+        <section class="section" id="projects">
+          <div class="section-heading">
+            <p class="eyebrow">Proyectos destacados</p>
+            <h2>Trabajo real y proyectos propios con foco en producto.</h2>
+            <p>
+              Esta seleccion resume lo que mejor representa mi forma de
+              trabajar: interfaz, integracion, estructura y una presentacion
+              clara del valor tecnico.
+            </p>
+          </div>
+
+          <div class="project-grid" id="project-grid"></div>
+        </section>
+
+        <section class="section split-section" id="about">
+          <div class="section-heading">
+            <p class="eyebrow">Perfil</p>
+            <h2>Busco seguir creciendo sobre proyectos que tengan sentido real.</h2>
+          </div>
+
+          <div class="about-grid">
+            <article class="info-card info-card-primary">
+              <p>
+                Me atraen los proyectos donde no solo importa "que funcione",
+                sino tambien como se siente usarlo, como se organiza el codigo y
+                como se comunica el valor de la solucion.
+              </p>
+              <p>
+                En mi portfolio estoy reuniendo trabajo real y proyectos propios
+                que muestran una combinacion de frontend, integracion con
+                backend, autenticacion, formularios, APIs y pensamiento de
+                producto.
+              </p>
+            </article>
+
+            <article class="info-card">
+              <h3>En que estoy poniendo foco</h3>
+              <ul class="skill-list">
+                <li>Frontend con React y TypeScript</li>
+                <li>Integracion cliente-servidor y diseno de APIs</li>
+                <li>Experiencia de usuario y feedback visual</li>
+                <li>Proyectos ensenables para recruiters y entrevistas</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="strengths">
+          <div class="section-heading">
+            <p class="eyebrow">Fortalezas</p>
+            <h2>Lo que quiero que se entienda rapido al ver mi perfil.</h2>
+          </div>
+
+          <div class="strength-grid">
+            <article class="strength-card">
+              <h3>Frontend con estructura</h3>
+              <p>
+                Trabajo interfaces con una base tecnica ordenada, no solo con
+                foco visual.
+              </p>
+            </article>
+
+            <article class="strength-card">
+              <h3>Integracion real con backend</h3>
+              <p>
+                Auth, JWT, formularios, fetch, estados de carga y proteccion de
+                rutas forman parte de lo que ya he trabajado.
+              </p>
+            </article>
+
+            <article class="strength-card">
+              <h3>Mentalidad de producto</h3>
+              <p>
+                Me interesa que cada proyecto tenga una historia clara y una
+                experiencia util, no quedarse en una simple demo tecnica.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="contact">
+          <div class="contact-card">
+            <div class="contact-copy">
+              <p class="eyebrow">Contacto</p>
+              <h2>Este portfolio seguira creciendo con nuevos proyectos.</h2>
+              <p>
+                Mientras tanto, aqui estan los enlaces donde se puede ver mejor
+                mi trabajo y seguir la evolucion de mis proyectos.
+              </p>
+            </div>
+
+            <div class="contact-actions">
+              <a
+                class="btn btn-primary"
+                href="https://github.com/DexpinBe"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Ver GitHub
+              </a>
+              <a
+                class="btn btn-secondary"
+                href="https://www.linkedin.com/in/mariasafer7/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Ver LinkedIn
+              </a>
+            </div>
+          </div>
         </section>
       </main>
     </div>
 
-    <script type="module" src="/portfolio/app.js"></script>
+    <script type="module" src="./app.js"></script>
   </body>
 </html>
